@@ -54,6 +54,14 @@ function create() {
   platforms.create(600, 450, "ground");
   platforms.create(50, 250, "ground");
   platforms.create(750, 220, "ground");
+  platforms.create(850, -20, "ground");
+  platforms.create(650, -20, "ground");
+  platforms.create(450, -20, "ground");
+  platforms.create(250, -20, "ground");
+  platforms.create(850, 820, "ground");
+  platforms.create(650, 820, "ground");
+  platforms.create(450, 820, "ground");
+  platforms.create(250, 820, "ground");
 
   player = this.physics.add.sprite(100, 450, "player");
   player.setBounce(0.2);
